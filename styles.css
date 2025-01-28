@@ -1,0 +1,31 @@
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* Offset for fixed navbar */
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

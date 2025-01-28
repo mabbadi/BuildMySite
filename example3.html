@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo 3 - Tailwind Styled</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-50 to-blue-100 text-gray-800 min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-lg py-4 px-6 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-blue-600">MySite</a>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="#welcome" class="hover:text-blue-500 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-500 transition">About Us</a></li>
+        <li><a href="#features" class="hover:text-blue-500 transition">Features</a></li>
+        <li><a href="#contact" class="hover:text-blue-500 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <header id="welcome" class="text-center py-20 bg-gradient-to-b from-blue-100 to-blue-200">
+    <h1 class="text-4xl font-bold mb-4 text-blue-600">Welcome to Demo 3</h1>
+    <p class="text-lg text-gray-700 max-w-xl mx-auto">Discover our clean, modern, and fully responsive website design built with Tailwind CSS.</p>
+    <a href="index.html" class="mt-6 inline-block px-6 py-3 bg-blue-500 text-white font-medium rounded-full shadow-lg hover:bg-blue-600 transition">Back to Home</a>
+
+  </header>
+
+  <!-- About Us -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-blue-600">About Us</h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">We are dedicated to providing the best user experience through innovative design and cutting-edge technology. Join us as we redefine the digital landscape!</p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-16 bg-gray-100">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-lg shadow-md text-center">
+          <h3 class="text-2xl font-semibold mb-4 text-blue-500">Feature 1</h3>
+          <p class="text-gray-600">Our first amazing feature helps you achieve more with less effort.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md text-center">
+          <h3 class="text-2xl font-semibold mb-4 text-blue-500">Feature 2</h3>
+          <p class="text-gray-600">Discover new possibilities with our advanced technology.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-md text-center">
+          <h3 class="text-2xl font-semibold mb-4 text-blue-500">Feature 3</h3>
+          <p class="text-gray-600">Experience unparalleled ease of use and efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-blue-600">Contact Us</h2>
+      <p class="text-lg text-gray-600 mb-6">Have questions? Feel free to reach out to us!</p>
+      <a href="mailto:info@mysite.com" class="px-6 py-3 bg-blue-500 text-white font-medium rounded-full shadow-lg hover:bg-blue-600 transition">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-6 mt-auto">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 MySite. All rights reserved.</p>
+      <p><a href="index.html" class="text-blue-400 hover:underline">Back to Home</a></p>
+    </div>
+  </footer>
+</body>
+</html>

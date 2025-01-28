@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildMySite - Static Websites for Small/Medium Businesses</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="BuildMySite creates affordable, fast, and responsive static websites tailored to small and medium businesses. Get started today!">
+    <meta name="keywords"
+        content="Static Websites, Website Design, Small Business Websites, Affordable Websites, Responsive Design, SEO Optimization">
+    <meta name="author" content="BuildMySite">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://buildmysite.online/">
+
+    <!-- Open Graph / Social Media Meta -->
+    <meta property="og:title" content="BuildMySite - Static Websites for Small/Medium Businesses">
+    <meta property="og:description"
+        content="Affordable, fast, and responsive static websites tailored for small and medium businesses.">
+    <meta property="og:image" content="https://buildmysite.online/images/hero-image.jpg">
+    <meta property="og:url" content="https://buildmysite.online/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BuildMySite - Static Websites for Small/Medium Businesses">
+    <meta name="twitter:description"
+        content="Affordable, fast, and responsive static websites tailored for small and medium businesses.">
+    <meta name="twitter:image" content="https://buildmysite.online/images/hero-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://buildmysite.online/sitemap.xml">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <!-- Logo/Icon Placeholder -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/buildmysite-icon.jpg" alt="BuildMySite Logo" class="me-2"
+                    style="width: 40px; height: 40px;">
+                BuildMySite
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home" data-lang="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" data-lang="services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing" data-lang="pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-lang="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-lang="contact">Contact</a></li>
+
+                    <!-- Language Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span id="currentLanguage">English</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="nl">Nederlands</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="ar">العربية</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Demo Examples Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="demoDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Demo Examples
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="demoDropdown">
+                            <li><a class="nav-link" href="example1.html">Example 1</a></li>
+                            <li><a class="nav-link" href="example2.html">Example 2</a></li>
+                            <li><a class="nav-link" href="example3.html">Example 3</a></li>
+                            <li><a class="nav-link" href="example4.html">Example 4</a></li>
+                            <li><a class="nav-link" href="example5.html">Example 5</a></li>
+                            <li><a class="nav-link" href="example6.html">Example 6</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 id="heroTitle" data-lang="heroTitle">We Build Websites for Individuals and Small/Medium
+                        Businesses</h1>
+                    <p id="heroText" data-lang="heroText">Affordable, fast, and responsive websites tailored to your
+                        needs.</p>
+                    <a href="#contact" class="btn btn-primary btn-lg" data-lang="contactButton">Contact Us</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/hero-image.jpg" alt="Hero Image" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 id="servicesTitle" class="text-center mb-5" data-lang="servicesTitle">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="images/design-icon.jpg" alt="Design Icon" class="img-fluid mb-3" style="width: 80px;">
+                    <h3 id="service1Title" data-lang="service1Title">Custom Design</h3>
+                    <p id="service1Text" data-lang="service1Text">We create unique designs that reflect your brand.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/responsive-icon.jpg" alt="Responsive Icon" class="img-fluid mb-3"
+                        style="width: 80px;">
+                    <h3 id="service2Title" data-lang="service2Title">Responsive Development</h3>
+                    <p id="service2Text" data-lang="service2Text">Your website will look great on all devices.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/seo-icon.jpg" alt="SEO Icon" class="img-fluid mb-3" style="width: 80px;">
+                    <h3 id="service3Title" data-lang="service3Title">SEO Optimization</h3>
+                    <p id="service3Text" data-lang="service3Text">We optimize your site to rank higher on search
+                        engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-light py-5">
+        <div class="container">
+            <h2 id="pricingTitle" class="text-center mb-5" data-lang="pricingTitle">Pricing</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" data-lang="basicPlanTitle">Basic Plan</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">€500</h6>
+                            <p class="card-text" data-lang="basicPlanText">3 pages, responsive design, fast delivery.
+                                Choose from existing styling. Colors are customizable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" data-lang="proPlanTitle">Pro Plan</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">€2,000</h6>
+                            <p class="card-text" data-lang="proPlanText">5 pages, multilingual support, SEO
+                                optimization. Choose from existing styling. Colors are customizable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" data-lang="premiumPlanTitle">Premium Plan</h5>
+                            <h6 class="card-subtitle mb-2 text-muted" data-lang="premiumPlanPrice">To be discussed</h6>
+                            <p class="card-text" data-lang="premiumPlanText">Custom design, ongoing support, and more.
+                                Tailored to your specific needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Section -->
+    <section id="value" class="py-5">
+        <div class="container">
+            <h2 id="valueTitle" class="text-center mb-5" data-lang="valueTitle">Why Choose Static Websites?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="images/fast-icon.jpg" alt="Fast Icon" class="img-fluid mb-3" style="width: 80px;">
+                    <h3 id="value1Title" data-lang="value1Title">Fast Loading Times</h3>
+                    <p id="value1Text" data-lang="value1Text">Static websites load faster, providing a better user
+                        experience.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/secure-icon.jpg" alt="Secure Icon" class="img-fluid mb-3" style="width: 80px;">
+                    <h3 id="value2Title" data-lang="value2Title">Secure</h3>
+                    <p id="value2Text" data-lang="value2Text">No backend vulnerabilities, making your site more secure.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/cost-icon.jpg" alt="Cost Icon" class="img-fluid mb-3" style="width: 80px;">
+                    <h3 id="value3Title" data-lang="value3Title">Low Hosting Costs</h3>
+                    <p id="value3Text" data-lang="value3Text">Static websites are cheaper to host compared to dynamic
+                        sites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upsell Services Section -->
+    <section id="upsell" class="bg-light py-5">
+        <div class="container">
+            <h2 id="upsellTitle" class="text-center mb-5" data-lang="upsellTitle">Add-On Services</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="images/logo-icon.jpg" alt="Logo Icon" class="img-fluid mb-3" style="width: 80px;">
+                    <h3 id="upsell1Title" data-lang="upsell1Title">Logo Design</h3>
+                    <p id="upsell1Text" data-lang="upsell1Text">We can create a professional logo for your brand.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/copywriting-icon.jpg" alt="Copywriting Icon" class="img-fluid mb-3"
+                        style="width: 80px;">
+                    <h3 id="upsell2Title" data-lang="upsell2Title">Copywriting</h3>
+                    <p id="upsell2Text" data-lang="upsell2Text">Our team can write compelling content for your website.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/integrations-icon.jpg" alt="Integrations Icon" class="img-fluid mb-3"
+                        style="width: 80px;">
+                    <h3 id="upsell3Title" data-lang="upsell3Title">Integrations & Features</h3>
+                    <p id="upsell3Text" data-lang="upsell3Text">Google integration, custom forms, analytics, and more to
+                        enhance your website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 id="aboutTitle" class="text-center mb-5" data-lang="aboutTitle">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/about-image.jpg" alt="About Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p id="aboutText" data-lang="aboutText">We are a team of web developers passionate about helping
+                        small and medium businesses grow online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 id="contactTitle" class="text-center mb-5" data-lang="contactTitle">Contact Us</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label" data-lang="nameLabel">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label" data-lang="emailLabel">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label" data-lang="messageLabel">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg" data-lang="submitButton">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p id="footerText" data-lang="footerText">&copy; 2023 BuildMySite. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
